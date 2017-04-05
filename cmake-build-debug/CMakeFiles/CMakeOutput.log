@@ -1,0 +1,43 @@
+The system is: Windows - 10.0.14393 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/3.7.1/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_ade49/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ade49.dir\build.make CMakeFiles/cmTC_ade49.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ade49.dir/testCCompiler.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -o CMakeFiles\cmTC_ade49.dir\testCCompiler.c.obj   -c C:\Users\danie\ClionProjects\HUFFMAN\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_ade49.exe
+"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ade49.dir\link.txt --verbose=1
+"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ade49.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ade49.dir/objects.a @CMakeFiles\cmTC_ade49.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_ade49.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ade49.exe -Wl,--out-implib,libcmTC_ade49.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ade49.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
