@@ -17,6 +17,8 @@ treeQueue.h
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c
 stdlib.h
 -
+stdio.h
+-
 treeQueue.h
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
 
