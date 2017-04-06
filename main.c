@@ -23,15 +23,16 @@ treeQueue* treeQueue_createNode(unsigned char byte, long long int frequence){
 }
 
 void treeQueue_enqueue(treeQueue **tree, unsigned char byte, long long int frequence){
+    treeQueue **temp = (*tree);
     if(*tree == NULL)
         *tree = treeQueue_createNode(byte, frequence);
     else{
-        while(*tree && (*tree)->frequence < frequence){
-            *tree = (*tree)->next;
+        while(*temp != NULL && (*temp)->frequence < frequence){
+            (*temp) = (*temp)->next;
         }
         treeQueue *newNode = treeQueue_createNode(byte, frequence);
-        newNode->next = (*tree);
-        (*tree)->next = newNode;
+        newNode->next = (*temp);
+        (*temp)->next = newNode;
     }
 }
 
