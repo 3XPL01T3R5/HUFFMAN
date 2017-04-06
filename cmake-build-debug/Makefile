@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/main.c.s
 .PHONY : main.c.s
 
+treeQueue.o: treeQueue.c.o
+
+.PHONY : treeQueue.o
+
+# target to build an object file
+treeQueue.c.o:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/treeQueue.c.o
+.PHONY : treeQueue.c.o
+
+treeQueue.i: treeQueue.c.i
+
+.PHONY : treeQueue.i
+
+# target to preprocess a source file
+treeQueue.c.i:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/treeQueue.c.i
+.PHONY : treeQueue.c.i
+
+treeQueue.s: treeQueue.c.s
+
+.PHONY : treeQueue.s
+
+# target to generate assembly for a file
+treeQueue.c.s:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/treeQueue.c.s
+.PHONY : treeQueue.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... treeQueue.o"
+	@echo "... treeQueue.i"
+	@echo "... treeQueue.s"
 .PHONY : help
 
 

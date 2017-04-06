@@ -83,6 +83,12 @@
 		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c">
+			<Option target="HUFFMAN"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h">
+			<Option target="HUFFMAN"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
