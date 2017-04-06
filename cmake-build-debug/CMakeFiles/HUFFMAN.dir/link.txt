@@ -1,1 +1,1 @@
-/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/HUFFMAN.dir/main.c.o CMakeFiles/HUFFMAN.dir/treeQueue.c.o  -o HUFFMAN.exe -Wl,--out-implib,libHUFFMAN.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/cc  -g  -Wl,--enable-auto-import CMakeFiles/HUFFMAN.dir/main.c.o CMakeFiles/HUFFMAN.dir/treeQueue.c.o CMakeFiles/HUFFMAN.dir/listFrequence.c.o  -o HUFFMAN.exe -Wl,--out-implib,libHUFFMAN.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -123,6 +123,33 @@ HUFFMAN/fast:
 	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/build
 .PHONY : HUFFMAN/fast
 
+listFrequence.o: listFrequence.c.o
+
+.PHONY : listFrequence.o
+
+# target to build an object file
+listFrequence.c.o:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/listFrequence.c.o
+.PHONY : listFrequence.c.o
+
+listFrequence.i: listFrequence.c.i
+
+.PHONY : listFrequence.i
+
+# target to preprocess a source file
+listFrequence.c.i:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/listFrequence.c.i
+.PHONY : listFrequence.c.i
+
+listFrequence.s: listFrequence.c.s
+
+.PHONY : listFrequence.s
+
+# target to generate assembly for a file
+listFrequence.c.s:
+	$(MAKE) -f CMakeFiles/HUFFMAN.dir/build.make CMakeFiles/HUFFMAN.dir/listFrequence.c.s
+.PHONY : listFrequence.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HUFFMAN"
+	@echo "... listFrequence.o"
+	@echo "... listFrequence.i"
+	@echo "... listFrequence.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

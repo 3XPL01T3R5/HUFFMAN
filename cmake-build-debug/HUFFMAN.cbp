@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.c">
+			<Option target="HUFFMAN"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h">
+			<Option target="HUFFMAN"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c">
 			<Option target="HUFFMAN"/>
 		</Unit>

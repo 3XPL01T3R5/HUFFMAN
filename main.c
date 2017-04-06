@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "treeQueue.h"
+#include "listFrequence.h"
 
 int main() {
     treeQueue *tree = NULL;

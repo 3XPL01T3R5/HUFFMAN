@@ -19,35 +19,10 @@ treeQueue* treeQueue_createNode(unsigned char byte, long long int frequence){
     return newNode;
 }
 
-int treeQueue_queueSize(treeQueue *tree){
-    int tam = 0;
-    while(tree != NULL) {
-        tree = tree->next;
-        ++tam;
-    }
-    return tam;
-}
-
 void treeQueue_enqueue(treeQueue **tree, unsigned char byte, long long int frequence){
-    if(*tree == NULL)
-        *tree = treeQueue_createNode(byte, frequence);
-    else{
-        treeQueue *prev = NULL, *head = *tree, *newNode = treeQueue_createNode(byte, frequence);
-        while(head && head->frequence < frequence) {
-            prev = head;
-            head = head->next;
-        }
-        if(prev == NULL){
-            newNode->next = *tree;
-            *tree = newNode;
-        }
-        else if(head == NULL)
-            prev->next = newNode;
-        else{
-            prev->next = newNode;
-            newNode->next = head;
-        }
-    }
+    treeQueue *newNode = treeQueue_createNode(byte, frequence);
+    newNode->next = *tree;
+    *tree = newNode;
 }
 
 void treeQueue_enqueueMergedNode(treeQueue **tree, treeQueue *mergedNode){
