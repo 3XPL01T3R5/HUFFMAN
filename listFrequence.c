@@ -20,9 +20,9 @@ listFrequence* listFrequence_create(){
     return newList;
 }
 
-void listFrequence_setFrequence(listFrequence *list, unsigned char byte, long long int frequence){
+void listFrequence_increaseFrequence(listFrequence *list, unsigned char byte){
     if(list->array[byte].byte == byte)
-        list->array[byte].frequence = frequence;
+        list->array[byte].frequence = list->array[byte].frequence + 1;
 }
 
 long long int listFrequence_getFrequence(listFrequence *list, unsigned char byte){
