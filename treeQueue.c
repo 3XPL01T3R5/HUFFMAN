@@ -87,3 +87,26 @@ char* treeQueue_printTreePreorder(treeQueue *tree) {
     strcat(str, str2);
     return str;
 }
+
+treeQueue* treeQueue_createWildCardNode(unsigned char byte, long long int frequence, treeQueue* left, treeQueue* right) {
+    treeQueue *newNode = malloc(sizeof(treeQueue));
+    newNode->byte = byte;
+    newNode->frequence = frequence;
+    newNode->next = NULL;
+    newNode->left = left;
+    newNode->right = right;
+    return newNode;
+}
+treeQueue* treeQueue_getLeft(treeQueue* tree) {
+    return tree->left;
+}
+treeQueue* treeQueue_getRight(treeQueue* tree) {
+    return tree->right;
+}
+
+unsigned char treeQueue_getByte(treeQueue* tree) {
+    return tree->byte;
+}
+int treeQueue_isLeafNode(treeQueue* tree) {
+    return tree->left == NULL && tree->right == NULL;
+}

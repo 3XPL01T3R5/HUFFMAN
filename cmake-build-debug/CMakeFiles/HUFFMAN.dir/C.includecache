@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.c
+stdlib.h
+-
+string.h
+-
+dictionaryTable.h
+C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
+
+C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
+
 C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.c
 stdlib.h
 -
@@ -19,12 +29,14 @@ stdio.h
 -
 stdlib.h
 -
-memory.h
+string.h
 -
 treeQueue.h
 C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
 listFrequence.h
 C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
+dictionaryTable.h
+C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
 
 C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.c
 stdlib.h

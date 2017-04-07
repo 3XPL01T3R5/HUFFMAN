@@ -122,6 +122,33 @@ HUFFMAN/fast:
 	$(MAKE) -f CMakeFiles\HUFFMAN.dir\build.make CMakeFiles/HUFFMAN.dir/build
 .PHONY : HUFFMAN/fast
 
+dictionaryTable.obj: dictionaryTable.c.obj
+
+.PHONY : dictionaryTable.obj
+
+# target to build an object file
+dictionaryTable.c.obj:
+	$(MAKE) -f CMakeFiles\HUFFMAN.dir\build.make CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj
+.PHONY : dictionaryTable.c.obj
+
+dictionaryTable.i: dictionaryTable.c.i
+
+.PHONY : dictionaryTable.i
+
+# target to preprocess a source file
+dictionaryTable.c.i:
+	$(MAKE) -f CMakeFiles\HUFFMAN.dir\build.make CMakeFiles/HUFFMAN.dir/dictionaryTable.c.i
+.PHONY : dictionaryTable.c.i
+
+dictionaryTable.s: dictionaryTable.c.s
+
+.PHONY : dictionaryTable.s
+
+# target to generate assembly for a file
+dictionaryTable.c.s:
+	$(MAKE) -f CMakeFiles\HUFFMAN.dir\build.make CMakeFiles/HUFFMAN.dir/dictionaryTable.c.s
+.PHONY : dictionaryTable.c.s
+
 listFrequence.obj: listFrequence.c.obj
 
 .PHONY : listFrequence.obj
@@ -212,6 +239,9 @@ help:
 	@echo ... HUFFMAN
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... dictionaryTable.obj
+	@echo ... dictionaryTable.i
+	@echo ... dictionaryTable.s
 	@echo ... listFrequence.obj
 	@echo ... listFrequence.i
 	@echo ... listFrequence.s

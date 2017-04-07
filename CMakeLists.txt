@@ -3,5 +3,5 @@ project(HUFFMAN)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES main.c treeQueue.h treeQueue.c listFrequence.c listFrequence.h)
+set(SOURCE_FILES main.c treeQueue.h treeQueue.c listFrequence.c listFrequence.h dictionaryTable.c dictionaryTable.h)
 add_executable(HUFFMAN ${SOURCE_FILES} treeQueue.h listFrequence.h)

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.c">
+			<Option target="HUFFMAN"/>
+		</Unit>
+		<Unit filename="C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h">
+			<Option target="HUFFMAN"/>
+		</Unit>
 		<Unit filename="C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
