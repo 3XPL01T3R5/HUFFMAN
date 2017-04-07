@@ -6,18 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.c
+stdlib.h
+-
+listFrequence.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
+
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
+
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c
 stdio.h
 -
-stdlib.h
--
 treeQueue.h
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
+listFrequence.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
 
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c
 stdlib.h
 -
 stdio.h
+-
+memory.h
 -
 treeQueue.h
 /cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h

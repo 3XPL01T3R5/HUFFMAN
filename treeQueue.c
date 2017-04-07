@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <memory.h>
 #include "treeQueue.h"
 
 struct treeQueue{
@@ -66,8 +67,23 @@ void treeQueue_formTree(treeQueue **tree){
     }
 }
 
-void treeQueue_print(treeQueue *tree){
+void treeQueue_printQueue(treeQueue *tree){
     for(; tree; tree = tree->next)
         printf("%c - %lld\n", tree->byte, tree->frequence);
     printf("\n\n");
+}
+
+char* treeQueue_printTreePreorder(treeQueue *tree) {
+    if (tree == NULL)
+        return "\0";
+
+    char *str1 = treeQueue_printTreePreorder(tree->left);
+
+    char *str2 = treeQueue_printTreePreorder(tree->right);
+
+    char *str = malloc((2 + strlen(str1) + strlen(str2)) * sizeof(char));
+    str[0] = tree->byte; str[1] = '\0';
+    strcat(str, str1);
+    strcat(str, str2);
+    return str;
 }
