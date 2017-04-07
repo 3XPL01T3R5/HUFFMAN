@@ -1,3 +1,3 @@
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir
+C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir
+C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,9 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HUFFMAN.dir/main.c.o"
-  "CMakeFiles/HUFFMAN.dir/treeQueue.c.o"
-  "CMakeFiles/HUFFMAN.dir/listFrequence.c.o"
+  "CMakeFiles/HUFFMAN.dir/main.c.obj"
+  "CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
+  "CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
   "HUFFMAN.pdb"
   "HUFFMAN.exe"
+  "HUFFMAN.exe.manifest"
   "libHUFFMAN.dll.a"
 )
 

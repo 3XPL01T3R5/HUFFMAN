@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <memory.h>
+#include <string.h>
 #include "treeQueue.h"
 
 struct treeQueue{

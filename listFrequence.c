@@ -12,9 +12,9 @@ struct list{
 
 listFrequence* listFrequence_create(){
     listFrequence *newList = malloc(sizeof(listFrequence));
-    unsigned char i;
+    int i;
     for(i = 0; i < 256; i++){
-        newList->array[i].byte = i;
+        newList->array[i].byte = (unsigned char) i;
         newList->array[i].frequence = 0;
     }
     return newList;
@@ -25,10 +25,12 @@ void listFrequence_increaseFrequence(listFrequence *list, unsigned char byte){
         list->array[byte].frequence = list->array[byte].frequence + 1;
 }
 
-long long int listFrequence_getFrequence(listFrequence *list, unsigned char byte){
-    if(list->array[byte].byte == byte)
-        return list->array[byte].frequence;
-    return -1;
+long long int listFrequence_getFrequenceAtIdx(listFrequence *list, unsigned char idx){
+    return list->array[idx].frequence;
+}
+
+unsigned char listFrequence_getByteAtIndex(listFrequence *list, unsigned char idx){
+    return list->array[idx].byte;
 }
 
 void swap(struct node *a, struct node *b){

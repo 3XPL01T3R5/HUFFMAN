@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.c" "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/listFrequence.c.o"
-  "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c" "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/main.c.o"
-  "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c" "/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/treeQueue.c.o"
+  "C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.c" "C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
+  "C:/Git/HuffL01T3R5/HUFFMAN/main.c" "C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/main.c.obj"
+  "C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.c" "C:/Git/HuffL01T3R5/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

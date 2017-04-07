@@ -6,31 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.c
+C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.c
 stdlib.h
 -
 listFrequence.h
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
+C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
 
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
+C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
 
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c
+C:/Git/HuffL01T3R5/HUFFMAN/main.c
 stdio.h
 -
-treeQueue.h
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
-listFrequence.h
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
-
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c
 stdlib.h
--
-stdio.h
 -
 memory.h
 -
 treeQueue.h
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
+C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
+listFrequence.h
+C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
 
-/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
+C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+treeQueue.h
+C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
+
+C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
 
