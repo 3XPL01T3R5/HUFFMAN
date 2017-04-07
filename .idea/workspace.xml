@@ -389,7 +389,7 @@
       <workItem from="1491436158675" duration="128000" />
       <workItem from="1491436380579" duration="8825000" />
       <workItem from="1491512360431" duration="9867000" />
-      <workItem from="1491573424402" duration="73000" />
+      <workItem from="1491573424402" duration="291000" />
     </task>
     <task id="LOCAL-00001" summary="commit via CLion">
       <created>1491441773220</created>
@@ -409,7 +409,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20288000" />
+    <option name="totallyTimeSpent" value="20506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
