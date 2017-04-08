@@ -82,7 +82,7 @@ char* treeQueue_printTreePreorder(treeQueue *tree) {
     char *str2 = treeQueue_printTreePreorder(tree->right);
 
     char *str = NULL;
-    if(tree->byte == '*' || tree->byte == '\\') {
+    if((tree->byte == '*' || tree->byte == '\\') && treeQueue_isLeafNode(tree)){
         str = malloc((3 + strlen(str1) + strlen(str2)) * sizeof(char));
         str[0] = '\\'; str[1] = tree->byte; str[2] = '\0';
     }
