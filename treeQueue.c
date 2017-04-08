@@ -81,8 +81,15 @@ char* treeQueue_printTreePreorder(treeQueue *tree) {
 
     char *str2 = treeQueue_printTreePreorder(tree->right);
 
-    char *str = malloc((2 + strlen(str1) + strlen(str2)) * sizeof(char));
-    str[0] = tree->byte; str[1] = '\0';
+    char *str = NULL;
+    if(tree->byte == '*' || tree->byte == '\\') {
+        str = malloc((3 + strlen(str1) + strlen(str2)) * sizeof(char));
+        str[0] = '\\'; str[1] = tree->byte; str[2] = '\0';
+    }
+    else {
+        str = malloc((2 + strlen(str1) + strlen(str2)) * sizeof(char));
+        str[0] = tree->byte; str[1] = '\0';
+    }
     strcat(str, str1);
     strcat(str, str2);
     return str;
