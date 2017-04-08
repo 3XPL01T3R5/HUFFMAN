@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.c
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/dictionaryTable.c
 stdlib.h
 -
 string.h
 -
 dictionaryTable.h
-C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/dictionaryTable.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/dictionaryTable.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.c
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.c
 stdlib.h
 -
 listFrequence.h
-C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/main.c
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/main.c
 stdio.h
 -
 stdlib.h
@@ -32,13 +32,13 @@ stdlib.h
 string.h
 -
 treeQueue.h
-C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
 listFrequence.h
-C:/Git/HuffL01T3R5/HUFFMAN/listFrequence.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/listFrequence.h
 dictionaryTable.h
-C:/Git/HuffL01T3R5/HUFFMAN/dictionaryTable.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/dictionaryTable.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.c
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.c
 stdlib.h
 -
 stdio.h
@@ -46,7 +46,7 @@ stdio.h
 string.h
 -
 treeQueue.h
-C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
 
-C:/Git/HuffL01T3R5/HUFFMAN/treeQueue.h
+/cygdrive/c/Users/danie/ClionProjects/HUFFMAN/treeQueue.h
 

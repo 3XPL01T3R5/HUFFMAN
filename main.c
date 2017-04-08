@@ -5,10 +5,6 @@
 #include "listFrequence.h"
 #include "dictionaryTable.h"
 
-
-int isBitSet(unsigned char c, int i){
-    return c & (1 << i);
-}
 unsigned char setBit(unsigned char c, int i){
     unsigned char mask = (unsigned char) (1 << i);
     return mask | c;
@@ -35,13 +31,13 @@ int main() {
     FILE * pFile, *newFile;
     long lSize;
     int tSize;
-    unsigned char *buffer, *newBuffer = NULL, *header = NULL;
+    unsigned char *buffer, *newBuffer = NULL;
     size_t result;
     treeQueue* tree = NULL;
     listFrequence* lf = listFrequence_create();
 
 
-    pFile = fopen ("text.txt" , "rb");
+    pFile = fopen ("arquivo.bin" , "rb");
     if (pFile==NULL) {fputs ("File error",stderr); exit (1);}
 
     // obtain file size:
@@ -77,44 +73,87 @@ int main() {
     char path[8];
 
     //printf("%s\n", treeQueue_printTreePreorder(tree));
-
-    tSize = strlen(preOrdemTree);
+    printf("%s\n", preOrdemTree);
+    tSize = (int) strlen(preOrdemTree);
     dictionaryTable *dt = dictionaryTable_create();
     formDictionary(tree, path, 0, &dt);
-    newBuffer = realloc(buffer, 1024 * sizeof(unsigned char));
-    int cur = 0;
+    //newBufferBits = realloc(newBufferBits, 1024 * sizeof(unsigned char));
+
+    //for(int j = 0; j < 256; j++)
+        printf("%c - %s\n", 'r', dictionaryTable_getDictionary(dt, 'r'));
+        printf("%c - %s\n", 'o', dictionaryTable_getDictionary(dt, 'o'));
+        printf("%c - %s\n", 'l', dictionaryTable_getDictionary(dt, 'l'));
+        printf("%c - %s\n", 'a', dictionaryTable_getDictionary(dt, 'a'));
+
+    newBuffer = realloc(newBuffer, 1024 * sizeof(unsigned char));
+    int idx = 0, newBytes = 0, trash = 0;
+    unsigned char str[8];
     for(i = 0; i < lSize; i++){
-        unsigned char compressedByte[8] = {'\0'};
+        unsigned char compressedByte[9] = {'\0'};
         strcpy((char *) compressedByte, (const char *) dictionaryTable_getDictionary(dt, buffer[i]));
-        for(int j = 0; j < 8 && compressedByte[j] != '\0'; j++) {
-            if (cur % 1024 == 0)
-                newBuffer = realloc(newBuffer, (cur + 1024) * sizeof(unsigned char));
-            newBuffer[cur++] = compressedByte[j];
+        for(int j = 0; j < 8 && compressedByte[j] != '\0'; j++){
+            str[idx] = compressedByte[j];
+            ++idx;
+            if(idx == 8){
+                idx = 0;
+                newBuffer[newBytes] = 0;
+                for(int k = 0; k < 8; k++) {
+                    if (str[k] == '1')
+                        newBuffer[newBytes] = setBit(newBuffer[newBytes], 7 - k);
+                }
+                printf("%d ", newBuffer[newBytes]);
+                if(++newBytes%1024 == 0)
+                    newBuffer = realloc(newBuffer, (newBytes + 1024) * sizeof(unsigned char));
+            }
         }
     }
-    header = malloc(sizeof(unsigned char)*(2 + tSize));
-
-    int trash = 8 - cur%8;
-    char trashBin[3], tSizeBin[13];
-
-    for(i = 0; i < 3; i++){
-        trashBin[2-i] = (char) ((trash % 2) + '0');
-        trash /= 2;
+    printf("\n\n");
+    while(idx > 0 && idx < 8){
+        str[idx++] = '0';
+        ++trash;
     }
+    for(i = 0; i < 8; i++)
+        if(str[i] == '1')
+            newBuffer[newBytes] = setBit(newBuffer[newBytes], 7 - i);
+
+    unsigned char header[2 + tSize];
+    memset(header, 0, (size_t) (2 + tSize));
+
+    char trashBin[4], tSizeBin[14];
+    trashBin[3] = '\0'; tSizeBin[13] = '\0';
+    //trash = 4;
+    if(trash != 8) {
+        for (i = 0; i < 3; i++) {
+            trashBin[2 - i] = (char) ((trash % 2) + '0');
+            trash /= 2;
+        }
+    }
+    else
+        memset(trashBin, '0', 3);
+    printf("trashBin: %s\n", trashBin);
     trash = tSize;
     for(i = 0; i < 13; i++){
         tSizeBin[12-i] = (char) ((trash % 2) + '0');
         trash /= 2;
     }
+    printf("tSize: %d | tSizeBin: %s\n", tSize, tSizeBin);
 
     for(i = 0; i < 3; i++){
         if(trashBin[i] == '1')
-            setBit(header[0], i);
+            header[0] = setBit(header[0], 7 - i);
     }
+    printf("header(trashOnly): '%d'\n", header[0]);
     for(i = 3; i < 16; i++){
-        if(tSizeBin[i-3] == '1')
-            setBit(header[i < 8 ? 0 : 1], i);
+        if(i < 8) {
+            if (tSizeBin[i - 3] == '1')
+                header[0] = setBit(header[0], 7 - i);
+        }
+        else {
+            if(tSizeBin[i-3] == '1')
+                header[1] = setBit(header[1], 15 - i);
+        }
     }
+    printf("header: '%d''%d'\n", header[0], header[1]);
 
     for(i = 0; i < tSize; i++){
         header[i+2] = (unsigned char) preOrdemTree[i];
@@ -123,10 +162,10 @@ int main() {
 
     newFile = fopen("newArchive.huff", "wb");
     fwrite(header, sizeof(char), (size_t) tSize + 2, newFile);
-    fwrite (newBuffer , sizeof(char), (size_t) cur, newFile);
+    fwrite (newBuffer, sizeof(char), (size_t) newBytes, newFile);
     fclose(newFile);
     free (buffer);
-
+    printf("comprimido com sucesso!\n");
     getchar();
     return 0;
 }
