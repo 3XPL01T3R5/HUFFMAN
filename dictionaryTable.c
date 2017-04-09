@@ -3,18 +3,18 @@
 #include "dictionaryTable.h"
 
 struct dictionary{
-    unsigned char array[256][9];
+    unsigned char array[256][300];
 };
 
 dictionaryTable* dictionaryTable_create(){
     dictionaryTable* new_dt = (dictionaryTable*) malloc(sizeof(dictionaryTable));
     int i;
     for(i = 0; i < 256; i++)
-        memset(new_dt->array[i], '\0', 9);
+        memset(new_dt->array[i], '\0', 300);
     return new_dt;
 }
 
-void dictionaryTable_setDictionary(dictionaryTable* dt, unsigned char byte, unsigned char bits[9]){
+void dictionaryTable_setDictionary(dictionaryTable* dt, unsigned char byte, unsigned char bits[300]){
     strcpy((char *) dt->array[byte], (const char *) bits);
 }
 

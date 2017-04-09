@@ -64,12 +64,13 @@ void treeQueue_formTree(treeQueue **tree){
         mergedNode->right->next = NULL;
 
         treeQueue_enqueueMergedNode(tree, mergedNode);
+        treeQueue_printQueue(*tree);
     }
 }
 
 void treeQueue_printQueue(treeQueue *tree){
     for(; tree; tree = tree->next)
-        printf("%c - %lld\n", tree->byte, tree->frequence);
+        printf("(%c|%lld)->", tree->byte, tree->frequence);
     printf("\n\n");
 }
 
