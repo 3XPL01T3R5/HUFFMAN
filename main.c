@@ -80,7 +80,7 @@ int main() {
     //newBufferBits = realloc(newBufferBits, 1024 * sizeof(unsigned char));
 
     newBuffer = realloc(newBuffer, 1024 * sizeof(unsigned char));
-    int idx = 0, newBytes = 0, trash = 0;
+    int idx = 0, newBytes = -1, trash = 0;
     unsigned char str[8];
     for(i = 0; i < lSize; i++){
         unsigned char compressedByte[300];
@@ -91,25 +91,26 @@ int main() {
             ++idx;
             if(idx == 8){
                 idx = 0;
+                if(++newBytes%1024 == 0 && newBytes != 0)
+                    newBuffer = realloc(newBuffer, (newBytes + 1024) * sizeof(unsigned char));
                 newBuffer[newBytes] = 0;
                 for(int k = 0; k < 8; k++) {
                     if (str[k] == '1')
                         newBuffer[newBytes] = setBit(newBuffer[newBytes], 7 - k);
                 }
-                printf("%d ", newBuffer[newBytes++]);
-                if(newBytes%1024 == 0)
-                    newBuffer = realloc(newBuffer, (newBytes + 1024) * sizeof(unsigned char));
+                printf("%d ", newBuffer[newBytes]);
             }
         }
     }
-    printf("\n\n");
-    while(idx > 0 && idx < 8){
-        str[idx++] = '0';
-        ++trash;
+    if(idx > 0) {
+        trash = 8 - idx;
+        ++newBytes;
+        for (i = 0; i < 8 - trash; i++)
+            if (str[i] == '1')
+                newBuffer[newBytes] = setBit(newBuffer[newBytes], 7 - i);
+        printf("%d", newBuffer[newBytes]);
     }
-    for(i = 0; i < 8; i++)
-        if(str[i] == '1')
-            newBuffer[newBytes] = setBit(newBuffer[newBytes], 7 - i);
+    printf("\n\n");
 
     unsigned char header[2 + tSize];
     memset(header, 0, (size_t) (2 + tSize));
@@ -157,7 +158,8 @@ int main() {
 
     newFile = fopen("newArchive.huff", "wb");
     fwrite(header, sizeof(char), (size_t) tSize + 2, newFile);
-    fwrite (newBuffer, sizeof(char), (size_t) newBytes, newFile);
+    for(i = 0; i <= newBytes; i++)
+        putc(newBuffer[i], newFile);
     fclose(newFile);
     free (buffer);
     printf("comprimido com sucesso!\n");
