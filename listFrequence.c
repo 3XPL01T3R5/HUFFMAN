@@ -59,7 +59,17 @@ void quicksort(struct node array[], unsigned char idxi, unsigned char idxf){
     quicksort(array, idxi, right);
     quicksort(array, left, idxf);
 }
-
+/*
 void listFrequence_sort(listFrequence *list){
-    quicksort(list->array, 0, 255);
+    int i, j;
+    for(i = 255; i >= 0; i--){
+        for(j = 0; j < i; j++){
+            if(list->array[j].frequence > list->array[j+1].frequence){
+                struct node aux = list->array[j];
+                list->array[j] = list->array[j+1];
+                list->array[j+1] = aux;
+            }
+        }
+    }
 }
+ */

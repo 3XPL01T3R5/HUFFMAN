@@ -13,5 +13,6 @@ treeQueue* treeQueue_getLeft(treeQueue* tree);
 treeQueue* treeQueue_getRight(treeQueue* tree);
 unsigned char treeQueue_getByte(treeQueue* tree);
 int treeQueue_isLeafNode(treeQueue* tree);
+void treeQueue_sort(treeQueue **tree);
 
 #endif //HUFFMAN_TREEQUEUE_H

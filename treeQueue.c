@@ -65,13 +65,14 @@ void treeQueue_formTree(treeQueue **tree){
 
         treeQueue_enqueueMergedNode(tree, mergedNode);
         treeQueue_printQueue(*tree);
+        printf("  ||  (%c) , (%c)\n\n", mergedNode->left->byte, mergedNode->right->byte);
     }
 }
 
 void treeQueue_printQueue(treeQueue *tree){
     for(; tree; tree = tree->next)
         printf("(%c|%lld)->", tree->byte, tree->frequence);
-    printf("\n\n");
+    //printf("\n\n");
 }
 
 char* treeQueue_printTreePreorder(treeQueue *tree) {
@@ -117,4 +118,22 @@ unsigned char treeQueue_getByte(treeQueue* tree) {
 }
 int treeQueue_isLeafNode(treeQueue* tree) {
     return tree->left == NULL && tree->right == NULL;
+}
+
+void treeQueue_sort(treeQueue **tree){
+    if(*tree == NULL)
+        return;
+    treeQueue *head = *tree, *subHead = NULL;
+    for(; head; head = head->next){
+        for(subHead = head->next; subHead; subHead = subHead->next){
+            if(head->frequence > subHead->frequence){
+                unsigned char auxC = head->byte;
+                long long int auxF = head->frequence;
+                head->byte = subHead->byte;
+                head->frequence = subHead->frequence;
+                subHead->byte = auxC;
+                subHead->frequence = auxF;
+            }
+        }
+    }
 }

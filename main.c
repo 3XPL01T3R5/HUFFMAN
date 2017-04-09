@@ -13,6 +13,10 @@ unsigned char setBit(unsigned char c, int i){
 void formDictionary(treeQueue* tree, char path[], int idx, dictionaryTable** dt){
     if(tree == NULL) return;
     if(treeQueue_getLeft(tree) == NULL && treeQueue_getRight(tree) == NULL){
+        if(idx >= 300) {
+            printf("\n\n\nDEU RUIM!!!");
+            getchar();
+        }
         path[idx] = '\0';
         dictionaryTable_setDictionary((*dt), treeQueue_getByte(tree), (unsigned char *) path);
     }else{
@@ -37,7 +41,7 @@ int main() {
     listFrequence* lf = listFrequence_create();
 
 
-    pFile = fopen ("text.txt" , "rb");
+    pFile = fopen ("imagem.jpg" , "rb");
     if (pFile==NULL) {fputs ("File error",stderr); exit (1);}
 
     // obtain file size:
@@ -58,15 +62,15 @@ int main() {
         listFrequence_increaseFrequence(lf, buffer[i]);
     }
 
-    listFrequence_sort(lf);
+    //listFrequence_sort(lf);
 
     for(i = 255; i >= 0; i--){
-        if(listFrequence_getFrequenceAtIdx(lf, (unsigned char) i) == 0) {
-            break;
-        }
-        treeQueue_enqueue(&tree, listFrequence_getByteAtIndex(lf, (unsigned char) i), listFrequence_getFrequenceAtIdx(lf, (unsigned char) i));
+        if(listFrequence_getFrequenceAtIdx(lf, (unsigned char) i) != 0)
+            treeQueue_enqueue(&tree, listFrequence_getByteAtIndex(lf, (unsigned char) i), listFrequence_getFrequenceAtIdx(lf, (unsigned char) i));
     }
+    treeQueue_sort(&tree);
     treeQueue_printQueue(tree);
+    printf("\n\n");
     treeQueue_formTree(&tree); //tree
 
     char *preOrdemTree = treeQueue_printTreePreorder(tree);
