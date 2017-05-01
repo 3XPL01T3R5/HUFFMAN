@@ -59,7 +59,3 @@ void quicksort(struct node array[], unsigned char idxi, unsigned char idxf){
     quicksort(array, idxi, right);
     quicksort(array, left, idxf);
 }
-
-void listFrequence_sort(listFrequence *list){
-    quicksort(list->array, 0, 255);
-}
