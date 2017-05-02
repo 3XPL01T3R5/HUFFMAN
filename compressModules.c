@@ -14,8 +14,6 @@ unsigned char setBit(unsigned char c, int i) {
 void formDictionary(treeQueue *tree, char path[], int idx, dictionaryTable **dt) {
     if (tree == NULL) return;
     if (treeQueue_getLeft(tree) == NULL && treeQueue_getRight(tree) == NULL) {
-        /*if (idx == 0)
-            path[idx++] = '0';*/
         path[idx] = '\0';
         dictionaryTable_setDictionary((*dt), treeQueue_getByte(tree), (unsigned char *) path);
     } else {
@@ -166,7 +164,6 @@ void compressFile(FILE *buffer, FILE *compressed) {
     }
     treeQueue_sort(&tree);
 
-    //treeQueue_printQueue(tree);
     treeQueue_formTree(&tree);
     fwrite("\0\0", 1, 2, compressed);
 
