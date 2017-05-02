@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/home/lucas/Desktop/HUFFMAN/compressModules.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/compressModules.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/decompressModules.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/decompressModules.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/listFrequence.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/main.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/main.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/stack.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/stack.c.obj"
-  "E:/home/lucas/Desktop/HUFFMAN/treeQueue.c" "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
+  "Z:/huff/HUFFMAN/compressModules.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/compressModules.c.obj"
+  "Z:/huff/HUFFMAN/decompressModules.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/decompressModules.c.obj"
+  "Z:/huff/HUFFMAN/dictionaryTable.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj"
+  "Z:/huff/HUFFMAN/listFrequence.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
+  "Z:/huff/HUFFMAN/main.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/main.c.obj"
+  "Z:/huff/HUFFMAN/stack.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/stack.c.obj"
+  "Z:/huff/HUFFMAN/treeQueue.c" "Z:/huff/HUFFMAN/cmake-build-debug/CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

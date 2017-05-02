@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/home/lucas/Desktop/HUFFMAN/compressModules.c
+Z:/huff/HUFFMAN/compressModules.c
 stdlib.h
 -
 stdio.h
@@ -14,19 +14,17 @@ stdio.h
 string.h
 -
 listFrequence.h
-E:/home/lucas/Desktop/HUFFMAN/listFrequence.h
+Z:/huff/HUFFMAN/listFrequence.h
 treeQueue.h
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.h
+Z:/huff/HUFFMAN/treeQueue.h
 dictionaryTable.h
-E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.h
+Z:/huff/HUFFMAN/dictionaryTable.h
 compressModules.h
-E:/home/lucas/Desktop/HUFFMAN/compressModules.h
-time.h
--
+Z:/huff/HUFFMAN/compressModules.h
 
-E:/home/lucas/Desktop/HUFFMAN/compressModules.h
+Z:/huff/HUFFMAN/compressModules.h
 
-E:/home/lucas/Desktop/HUFFMAN/decompressModules.c
+Z:/huff/HUFFMAN/decompressModules.c
 stdlib.h
 -
 stdio.h
@@ -34,65 +32,65 @@ stdio.h
 string.h
 -
 treeQueue.h
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.h
+Z:/huff/HUFFMAN/treeQueue.h
 decompressModules.h
-E:/home/lucas/Desktop/HUFFMAN/decompressModules.h
+Z:/huff/HUFFMAN/decompressModules.h
 stack.h
-E:/home/lucas/Desktop/HUFFMAN/stack.h
+Z:/huff/HUFFMAN/stack.h
 
-E:/home/lucas/Desktop/HUFFMAN/decompressModules.h
+Z:/huff/HUFFMAN/decompressModules.h
 
-E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.c
+Z:/huff/HUFFMAN/dictionaryTable.c
 stdlib.h
 -
 string.h
 -
 dictionaryTable.h
-E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.h
+Z:/huff/HUFFMAN/dictionaryTable.h
 
-E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.h
+Z:/huff/HUFFMAN/dictionaryTable.h
 
-E:/home/lucas/Desktop/HUFFMAN/listFrequence.c
+Z:/huff/HUFFMAN/listFrequence.c
 stdlib.h
 -
 listFrequence.h
-E:/home/lucas/Desktop/HUFFMAN/listFrequence.h
+Z:/huff/HUFFMAN/listFrequence.h
 
-E:/home/lucas/Desktop/HUFFMAN/listFrequence.h
+Z:/huff/HUFFMAN/listFrequence.h
 
-E:/home/lucas/Desktop/HUFFMAN/main.c
+Z:/huff/HUFFMAN/main.c
 stdio.h
 -
 string.h
 -
 compressModules.h
-E:/home/lucas/Desktop/HUFFMAN/compressModules.h
+Z:/huff/HUFFMAN/compressModules.h
 decompressModules.h
-E:/home/lucas/Desktop/HUFFMAN/decompressModules.h
+Z:/huff/HUFFMAN/decompressModules.h
 locale.h
 -
 
-E:/home/lucas/Desktop/HUFFMAN/stack.c
+Z:/huff/HUFFMAN/stack.c
 malloc.h
 -
 stdlib.h
 -
 stack.h
-E:/home/lucas/Desktop/HUFFMAN/stack.h
+Z:/huff/HUFFMAN/stack.h
 
-E:/home/lucas/Desktop/HUFFMAN/stack.h
+Z:/huff/HUFFMAN/stack.h
 treeQueue.h
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.h
+Z:/huff/HUFFMAN/treeQueue.h
 
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.c
+Z:/huff/HUFFMAN/treeQueue.c
 stdlib.h
 -
 stdio.h
 -
 treeQueue.h
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.h
+Z:/huff/HUFFMAN/treeQueue.h
 
-E:/home/lucas/Desktop/HUFFMAN/treeQueue.h
+Z:/huff/HUFFMAN/treeQueue.h
 stdio.h
 -
 

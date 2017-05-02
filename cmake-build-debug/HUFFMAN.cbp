@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug"/>
+				<Option working_dir="Z:/huff/HUFFMAN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HUFFMAN">
-				<Option output="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/HUFFMAN.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug"/>
+				<Option output="Z:/huff/HUFFMAN/cmake-build-debug/HUFFMAN.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/huff/HUFFMAN/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 HUFFMAN"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 HUFFMAN"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HUFFMAN/fast">
-				<Option output="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/HUFFMAN.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug"/>
+				<Option output="Z:/huff/HUFFMAN/cmake-build-debug/HUFFMAN.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="Z:/huff/HUFFMAN/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,73 +53,73 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/4.9.3/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 HUFFMAN/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 HUFFMAN/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug"/>
+				<Option working_dir="Z:/huff/HUFFMAN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug"/>
+				<Option working_dir="Z:/huff/HUFFMAN/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;Z:/huff/HUFFMAN/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/compressModules.c">
+		<Unit filename="Z:/huff/HUFFMAN/compressModules.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/compressModules.h">
+		<Unit filename="Z:/huff/HUFFMAN/compressModules.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/decompressModules.c">
+		<Unit filename="Z:/huff/HUFFMAN/decompressModules.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/decompressModules.h">
+		<Unit filename="Z:/huff/HUFFMAN/decompressModules.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.c">
+		<Unit filename="Z:/huff/HUFFMAN/dictionaryTable.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/dictionaryTable.h">
+		<Unit filename="Z:/huff/HUFFMAN/dictionaryTable.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/listFrequence.c">
+		<Unit filename="Z:/huff/HUFFMAN/listFrequence.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/listFrequence.h">
+		<Unit filename="Z:/huff/HUFFMAN/listFrequence.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/main.c">
+		<Unit filename="Z:/huff/HUFFMAN/main.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/stack.c">
+		<Unit filename="Z:/huff/HUFFMAN/stack.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/stack.h">
+		<Unit filename="Z:/huff/HUFFMAN/stack.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/treeQueue.c">
+		<Unit filename="Z:/huff/HUFFMAN/treeQueue.c">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/treeQueue.h">
+		<Unit filename="Z:/huff/HUFFMAN/treeQueue.h">
 			<Option target="HUFFMAN"/>
 		</Unit>
-		<Unit filename="E:/home/lucas/Desktop/HUFFMAN/CMakeLists.txt">
+		<Unit filename="Z:/huff/HUFFMAN/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

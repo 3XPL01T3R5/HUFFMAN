@@ -1,4 +1,4 @@
-# Install script for directory: E:/home/lucas/Desktop/HUFFMAN
+# Install script for directory: Z:/huff/HUFFMAN
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/home/lucas/Desktop/HUFFMAN/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "Z:/huff/HUFFMAN/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

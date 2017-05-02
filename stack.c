@@ -1,7 +1,7 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include "stack.h"
-
+typedef struct no node;
 struct no {
     treeQueue *item;
     node *next;

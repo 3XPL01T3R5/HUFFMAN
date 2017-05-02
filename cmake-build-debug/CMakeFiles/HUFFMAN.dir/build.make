@@ -42,10 +42,10 @@ RM = "D:\Program Files\CLion 2016.3.2\bin\cmake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\home\lucas\Desktop\HUFFMAN
+CMAKE_SOURCE_DIR = Z:\huff\HUFFMAN
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug
+CMAKE_BINARY_DIR = Z:\huff\HUFFMAN\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HUFFMAN.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/HUFFMAN.dir/flags.make
 
 CMakeFiles/HUFFMAN.dir/main.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HUFFMAN.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\main.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HUFFMAN.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\main.c.obj   -c Z:\huff\HUFFMAN\main.c
 
 CMakeFiles/HUFFMAN.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\main.c > CMakeFiles\HUFFMAN.dir\main.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\main.c > CMakeFiles\HUFFMAN.dir\main.c.i
 
 CMakeFiles/HUFFMAN.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\main.c -o CMakeFiles\HUFFMAN.dir\main.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\main.c -o CMakeFiles\HUFFMAN.dir\main.c.s
 
 CMakeFiles/HUFFMAN.dir/main.c.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/HUFFMAN.dir/main.c.obj.provides.build: CMakeFiles/HUFFMAN.dir/main.c.
 
 CMakeFiles/HUFFMAN.dir/treeQueue.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/treeQueue.c.obj: ../treeQueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\treeQueue.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\treeQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HUFFMAN.dir/treeQueue.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\treeQueue.c.obj   -c Z:\huff\HUFFMAN\treeQueue.c
 
 CMakeFiles/HUFFMAN.dir/treeQueue.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/treeQueue.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\treeQueue.c > CMakeFiles\HUFFMAN.dir\treeQueue.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\treeQueue.c > CMakeFiles\HUFFMAN.dir\treeQueue.c.i
 
 CMakeFiles/HUFFMAN.dir/treeQueue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/treeQueue.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\treeQueue.c -o CMakeFiles\HUFFMAN.dir\treeQueue.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\treeQueue.c -o CMakeFiles\HUFFMAN.dir\treeQueue.c.s
 
 CMakeFiles/HUFFMAN.dir/treeQueue.c.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/HUFFMAN.dir/treeQueue.c.obj.provides.build: CMakeFiles/HUFFMAN.dir/tr
 
 CMakeFiles/HUFFMAN.dir/listFrequence.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/listFrequence.c.obj: ../listFrequence.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\listFrequence.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\listFrequence.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HUFFMAN.dir/listFrequence.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\listFrequence.c.obj   -c Z:\huff\HUFFMAN\listFrequence.c
 
 CMakeFiles/HUFFMAN.dir/listFrequence.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/listFrequence.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\listFrequence.c > CMakeFiles\HUFFMAN.dir\listFrequence.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\listFrequence.c > CMakeFiles\HUFFMAN.dir\listFrequence.c.i
 
 CMakeFiles/HUFFMAN.dir/listFrequence.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/listFrequence.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\listFrequence.c -o CMakeFiles\HUFFMAN.dir\listFrequence.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\listFrequence.c -o CMakeFiles\HUFFMAN.dir\listFrequence.c.s
 
 CMakeFiles/HUFFMAN.dir/listFrequence.c.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/HUFFMAN.dir/listFrequence.c.obj.provides.build: CMakeFiles/HUFFMAN.di
 
 CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj: ../dictionaryTable.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\dictionaryTable.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\dictionaryTable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\dictionaryTable.c.obj   -c Z:\huff\HUFFMAN\dictionaryTable.c
 
 CMakeFiles/HUFFMAN.dir/dictionaryTable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/dictionaryTable.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\dictionaryTable.c > CMakeFiles\HUFFMAN.dir\dictionaryTable.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\dictionaryTable.c > CMakeFiles\HUFFMAN.dir\dictionaryTable.c.i
 
 CMakeFiles/HUFFMAN.dir/dictionaryTable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/dictionaryTable.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\dictionaryTable.c -o CMakeFiles\HUFFMAN.dir\dictionaryTable.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\dictionaryTable.c -o CMakeFiles\HUFFMAN.dir\dictionaryTable.c.s
 
 CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj.requires:
 
@@ -154,16 +154,16 @@ CMakeFiles/HUFFMAN.dir/dictionaryTable.c.obj.provides.build: CMakeFiles/HUFFMAN.
 
 CMakeFiles/HUFFMAN.dir/compressModules.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/compressModules.c.obj: ../compressModules.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HUFFMAN.dir/compressModules.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\compressModules.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\compressModules.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HUFFMAN.dir/compressModules.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\compressModules.c.obj   -c Z:\huff\HUFFMAN\compressModules.c
 
 CMakeFiles/HUFFMAN.dir/compressModules.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/compressModules.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\compressModules.c > CMakeFiles\HUFFMAN.dir\compressModules.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\compressModules.c > CMakeFiles\HUFFMAN.dir\compressModules.c.i
 
 CMakeFiles/HUFFMAN.dir/compressModules.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/compressModules.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\compressModules.c -o CMakeFiles\HUFFMAN.dir\compressModules.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\compressModules.c -o CMakeFiles\HUFFMAN.dir\compressModules.c.s
 
 CMakeFiles/HUFFMAN.dir/compressModules.c.obj.requires:
 
@@ -178,16 +178,16 @@ CMakeFiles/HUFFMAN.dir/compressModules.c.obj.provides.build: CMakeFiles/HUFFMAN.
 
 CMakeFiles/HUFFMAN.dir/decompressModules.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/decompressModules.c.obj: ../decompressModules.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HUFFMAN.dir/decompressModules.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\decompressModules.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\decompressModules.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HUFFMAN.dir/decompressModules.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\decompressModules.c.obj   -c Z:\huff\HUFFMAN\decompressModules.c
 
 CMakeFiles/HUFFMAN.dir/decompressModules.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/decompressModules.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\decompressModules.c > CMakeFiles\HUFFMAN.dir\decompressModules.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\decompressModules.c > CMakeFiles\HUFFMAN.dir\decompressModules.c.i
 
 CMakeFiles/HUFFMAN.dir/decompressModules.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/decompressModules.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\decompressModules.c -o CMakeFiles\HUFFMAN.dir\decompressModules.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\decompressModules.c -o CMakeFiles\HUFFMAN.dir\decompressModules.c.s
 
 CMakeFiles/HUFFMAN.dir/decompressModules.c.obj.requires:
 
@@ -202,16 +202,16 @@ CMakeFiles/HUFFMAN.dir/decompressModules.c.obj.provides.build: CMakeFiles/HUFFMA
 
 CMakeFiles/HUFFMAN.dir/stack.c.obj: CMakeFiles/HUFFMAN.dir/flags.make
 CMakeFiles/HUFFMAN.dir/stack.c.obj: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HUFFMAN.dir/stack.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\stack.c.obj   -c E:\home\lucas\Desktop\HUFFMAN\stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HUFFMAN.dir/stack.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HUFFMAN.dir\stack.c.obj   -c Z:\huff\HUFFMAN\stack.c
 
 CMakeFiles/HUFFMAN.dir/stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HUFFMAN.dir/stack.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\home\lucas\Desktop\HUFFMAN\stack.c > CMakeFiles\HUFFMAN.dir\stack.c.i
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E Z:\huff\HUFFMAN\stack.c > CMakeFiles\HUFFMAN.dir\stack.c.i
 
 CMakeFiles/HUFFMAN.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HUFFMAN.dir/stack.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\home\lucas\Desktop\HUFFMAN\stack.c -o CMakeFiles\HUFFMAN.dir\stack.c.s
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S Z:\huff\HUFFMAN\stack.c -o CMakeFiles\HUFFMAN.dir\stack.c.s
 
 CMakeFiles/HUFFMAN.dir/stack.c.obj.requires:
 
@@ -248,7 +248,7 @@ HUFFMAN.exe: CMakeFiles/HUFFMAN.dir/build.make
 HUFFMAN.exe: CMakeFiles/HUFFMAN.dir/linklibs.rsp
 HUFFMAN.exe: CMakeFiles/HUFFMAN.dir/objects1.rsp
 HUFFMAN.exe: CMakeFiles/HUFFMAN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable HUFFMAN.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable HUFFMAN.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HUFFMAN.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -271,6 +271,6 @@ CMakeFiles/HUFFMAN.dir/clean:
 .PHONY : CMakeFiles/HUFFMAN.dir/clean
 
 CMakeFiles/HUFFMAN.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\home\lucas\Desktop\HUFFMAN E:\home\lucas\Desktop\HUFFMAN E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug E:\home\lucas\Desktop\HUFFMAN\cmake-build-debug\CMakeFiles\HUFFMAN.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" Z:\huff\HUFFMAN Z:\huff\HUFFMAN Z:\huff\HUFFMAN\cmake-build-debug Z:\huff\HUFFMAN\cmake-build-debug Z:\huff\HUFFMAN\cmake-build-debug\CMakeFiles\HUFFMAN.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HUFFMAN.dir/depend
 
