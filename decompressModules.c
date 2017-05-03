@@ -109,7 +109,7 @@ void decompressFile(FILE *buf, FILE *destino) {
     progresstable[99] = tambuf - 1;
     header *header = processHeader(buf);
     tambuf -= 2 + header->treeSize;
-    unsigned char temp[200];
+    unsigned char temp[256];
     temp[0] = '\0';
     unsigned char leu;
     int atual = 1;
